@@ -164,34 +164,37 @@ img{
     .background{
         position: initial;
     }
+    .icon{
+        width: 8vw;
+    }
     .first-face{
         position: relative;
-        right: 3vh;
-        top: 20vh;
+        right: 4vw;
+        top: 30vw;
     }
     .second-face{
         position: relative;
-        top: 17vh;
+        top: 29vw;
     }
     .third-face{
         position: relative;
-        top: 52vh;
-        right: 17vh;
+        top: 83vw;
+        right: 27vw;
     }
     .send{
         position: relative;
-        top: 45vh;
-        right: 20vh;
+        top: 70vw;
+        right: 30vw;
     }
     .dialog{
         position: relative;
-        top: 32vh;
-        right: 6vh;
+        top: 48vw;
+        right: 9vw;
     }
     .clock{
         position: relative;
-        top: 38vh;
-        left: 8vh;
+        top: 58vw;
+        left: 13vw;
     }
 }
 /*MODAL CONTAINER*/
