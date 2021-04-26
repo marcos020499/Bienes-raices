@@ -60,6 +60,7 @@ hr{
         position: fixed;
         width: 100%;
         background-color: rgb(240, 235, 229);
+        opacity: none;
     }
     .headerInfo h1{
         margin: 2vw;
@@ -143,12 +144,12 @@ hr{
 @media screen and (max-width: 768px) {
     .Icons{
         position: fixed;
-        top: 147vw;
+        top: 84vh;
         display: flex;
         background-color: rgb(240, 235, 229);;
         width: 100%;
         margin: 0%;
-        padding: 3.9vw;
+        padding: 2vh 0.5vh 5vh 0;
     }
     .Icons img{
         opacity: none;
