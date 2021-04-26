@@ -144,16 +144,15 @@ hr{
 @media screen and (max-width: 768px) {
     .Icons{
         position: fixed;
-        top: 84vh;
-        display: flex;
+        top: 86vh;
+        display: flex;     
         background-color: rgb(240, 235, 229);;
-        width: 100%;
-        margin: 0%;
-        padding: 2vh 0.5vh 5vh 0;
+        width: 85vh;
+        margin: none;
+        padding: 1vh;
     }
     .Icons img{
         opacity: none;
-        padding: 1vw;
     }
     .Icons nav{
         padding-bottom: 10vw;
