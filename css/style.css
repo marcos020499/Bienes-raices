@@ -107,7 +107,7 @@ hr{
     margin-left: -15vh;
 }
 .Icons img{
-    padding: 1.8vw;
+    padding: 1.8vh;
     width: 4vh;
     opacity: 40%;
 }
@@ -149,11 +149,13 @@ hr{
         background-color: rgb(240, 235, 229);;
         width: 100vh;
         height: 10vh;
-        margin-left: -45vw;
-        padding: none;
+        right: 6.5vh;
+        padding: 0 1vh 1vh 0;
     }
     .Icons img{
         opacity: none;
+        margin: 0%;
+        padding: 0 10vw 0 10vw ;
     }
     .Icons nav{
         padding-bottom: 10vw;
