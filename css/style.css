@@ -68,10 +68,10 @@ hr{
         font-weight: bolder;
     }
     .bell{
-        position: absolute;
+        position: relative;
         opacity: 100%;
         z-index: 5;
-        right: 3vw;
+        right: -27vh;
         width: 6vw;
         border: 1px solid black;
     }
