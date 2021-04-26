@@ -142,16 +142,21 @@ hr{
 }
 @media screen and (max-width: 768px) {
     .Icons{
-        position: fixed;
-        top: 87vh;
+        position: relative;
+        top: 85vh;
+        right: 34vw;
         display: flex;
         background-color: rgb(240, 235, 229);;
         width: 100%;
         margin: 0%;
-        padding: 0;
+        padding: 3.5vw;
     }
     .Icons img{
         opacity: none;
+        padding: 1vw;
+    }
+    .Icons nav{
+        padding-bottom: 10vw;
     }
     .users{
         display: initial;
