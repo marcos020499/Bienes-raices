@@ -111,6 +111,9 @@ hr{
     width: 4vh;
     opacity: 40%;
 }
+.IconsFooter{
+    display: none;
+}
 .users{
     display: flex;
     justify-content: space-between;
@@ -142,21 +145,20 @@ hr{
     opacity: 90%;
 }
 @media screen and (max-width: 768px) {
-    .Icons{
-        position: relative;
-        top: 92vh;
-        display: flex; 
-        width: 100%; 
-        right: 20px;
+    .IconsFooter{
+        position: fixed;
+        top: 92%;
+        display: flex;
+        text-align: center; 
         background-color: rgb(240, 235, 229);
-        padding: 0;
+        padding: 0 25vw 0 25vw;
     }
-    .Icons img{
-        opacity: none;
-        margin: 0%;
+    .IconsFooter img{ 
+        width: 6vw;
+        padding: 2vh;
     }
-    .Icons nav{
-        padding-bottom: 10%;
+    .Icons{
+        display: none;
     }
     .users{
         display: initial;
