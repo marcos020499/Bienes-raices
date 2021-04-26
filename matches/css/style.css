@@ -65,20 +65,13 @@ hr{
         margin: 2vw;
         font-weight: bolder;
     }
-    .Icons{
-        position: fixed;
-        top: 93vh;
-        display: flex;
-        background-color: rgb(240, 235, 229);;
-        width: 100vw;
-        right: 7vw;
-        padding: 1.5vw 0 1.5vw 0;
-    }
     .bell{
         position: absolute;
+        opacity: none;
         z-index: 5;
         right: 3vw;
         width: 6vw;
+        border: 1px solid black;
     }
     .hrBlock{
         position: relative;
@@ -148,6 +141,18 @@ hr{
     opacity: 90%;
 }
 @media screen and (max-width: 768px) {
+    .Icons{
+        position: fixed;
+        top: 87vh;
+        display: flex;
+        background-color: rgb(240, 235, 229);;
+        width: 100%;
+        margin: 0%;
+        padding: 0;
+    }
+    .Icons img{
+        opacity: none;
+    }
     .users{
         display: initial;
         position: relative;
