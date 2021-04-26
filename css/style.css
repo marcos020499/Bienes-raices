@@ -61,9 +61,10 @@ hr{
         width: 100%;
         background-color: rgb(240, 235, 229);
         opacity: none;
+        display: flex;
+        justify-content: flex-start;
     }
     .headerInfo h1{
-        margin: 2vw;
         font-weight: bolder;
     }
     .bell{
@@ -97,7 +98,6 @@ hr{
     }
     .iconsActions{
         position: relative;
-        margin: 0 7vw 0 7vw;
     }
 }
 .Icons{
@@ -147,10 +147,7 @@ hr{
         top: 92vh;
         display: flex;     
         background-color: rgb(240, 235, 229);
-        right: 23vw;
-        height: 10vh;
-
-        padding: 0 0vh 0vh 0;
+        padding: 0;
     }
     .Icons img{
         opacity: none;
