@@ -7,7 +7,7 @@ module.exports = {
   // the app entry point is /src/index.js
   entry: path.resolve(__dirname, 'src', 'index.js'),
   output: {
-    path: path.join(__dirname, "build"),
+    path: path.join(__dirname, "examples/dist"),
     filename: "bundle.js"
   },
   module: {
