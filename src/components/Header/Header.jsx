@@ -6,10 +6,10 @@ class Header extends Component {
       return (
          <div className=''>
              <div className='headerInfo'>
-                <img src='./img/logo.svg' alt="" className='logoHeader'/>
+                <img src='../../../img/logo.svg' alt="" className='logoHeader'/>
                 <h2>blog</h2>
                 <nav>
-                    <a href=""><img src='./img/loupe.svg' alt="" className='loupeHeader'/></a>
+                    <a href=""><img src='../../../img/loupe.svg' alt="" className='loupeHeader'/></a>
                     <a href="" className='tagsHeader'>Tags</a>
                     <a href="" className='archivesHeader'>Archives</a>
                     <a href="">Books</a>
