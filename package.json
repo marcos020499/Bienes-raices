@@ -6,7 +6,7 @@
   "main": "index.js",
   "scripts": {
     "build": "webpack",
-    "deploy": "gh-pages -d examples/dist",
+    "deploy": "gh-pages -d build",
     "publish-demo": "npm run build && npm run deploy",
     "start": "webpack serve --open"
   },
