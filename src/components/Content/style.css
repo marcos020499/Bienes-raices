@@ -1,0 +1,220 @@
+.content{
+    display: flex;
+    padding: 0 4vh 0 4vh;
+    justify-content: space-between;
+}
+.tubikBlog h1{
+    font-size: 5vw;
+    font-weight: lighter;
+}
+.tubikBlog img{
+    filter: brightness(80%);
+    width: 48vw;
+    height: 52vw;
+    border-radius: 10px;
+}
+@media screen and (max-width: 768px){
+    .content{
+        display: inline-block;
+        padding: 0 1vh 0 1vh;
+    }
+    .tubikBlog h1{
+        font-size: 7vw;
+    }
+    .tubikBlog img{
+        filter: brightness(60%);
+        width: 92vw;
+        height: 90vw;
+        border-radius: 10px;
+    }
+}
+.textImg{
+    position: absolute;
+    top: 42vh;
+    padding: 5vh;
+    width: 70vh;
+    color: white;
+}
+.textImg h4{
+    width: 30vh;
+    font-size: 2vh;
+    font-weight: bolder;
+}
+.textImg p{
+    font-family: 'Roboto' ;
+    font-size: 1.8vh;
+    font-weight: bolder;
+}
+.textImg h2{
+    font-family: 'Roboto-Bolder' ;
+    font-size: 4vh;
+}
+@media screen and (max-width: 768px){
+    .textImg{
+        width: 40vh;
+    }
+    .textImg h4{
+        font-size: 2.2vh;
+        font-weight: bolder;
+    }
+    .textImg p{
+        font-size: 2.5vh;
+        font-weight: bolder;
+    }
+    .textImg h2{
+        font-family: 'Roboto-Bolder' ;
+        font-size: 4vh;
+    }
+}
+.viewLatest{
+    font-family: 'Roboto-Bolder' ;
+    position: absolute;
+    right: 9vh;
+    top: 20vw;
+    font-size: 3vh;
+    padding-bottom: 30vw;
+}
+.views img{
+    position: relative;
+    top: 16vw;
+    width: 20vw;
+    height: 21vw;
+    margin: -6vh 1vh 2vw 1vw;
+    border-radius: 10px;
+}
+.views h3{
+    position: relative;
+    top: 15vw;
+    font-size: 2vh;
+    margin: 1vh 8vw 2vw 1.7vw;
+    border-radius: 10px;
+}
+.views p{
+    position: relative;
+    top: 13.5vw;
+    font-weight: lighter;
+    font-size: 2.5vh;
+    width: 15vw;
+    margin: 1vh 2vw 2vw 1.7vw;
+    border-radius: 10px;
+}
+.viewContent{
+    display: inline-block;
+    width: 20vw;
+    margin: 0 2vh 0 1vh;
+}
+@media screen and (max-width: 768px){
+    .viewLatest{
+        right: 4vh;
+        top: 37vh;
+        font-size: 3vh;
+    }
+    .views img{
+        display: flex;
+        top: 16vw;
+        width: 40vw;
+        height: 41vw;
+    }
+    .views h3{
+        font-size: 2vh;
+        width: 30vw;
+    }
+    .views p{
+        font-size: 2.2vh;
+        width: 43vw;
+        margin-bottom: 30px;
+    }
+    .view{
+        display: flex;
+        margin: 0 1vh 0vh 0vh;
+    }
+    .viewContent{
+        width: 34vw;
+        margin: 0 5vh 5vh 1vh;
+    }
+}
+.popularContent{
+    color: white;
+    margin: 13vh 3vh 0vh 3vh;
+}
+.popularContent h2{
+    font-family: 'Roboto-Bolder' ;
+    font-size: 7vh;
+    color: black;
+    margin-left: 1vh;
+    font-weight: 100;
+}
+.popularContent img{
+    filter: brightness(60%);
+    width: 68vh;
+    height: 60vh;
+    border-radius: 10px;
+    margin: 0vh 2vh 2vh 2vh;
+}
+.popularContent h4{
+    font-size: 1.7vh;
+    position: absolute;
+    top: 94vw;
+    margin: 7vh;
+}
+.popularContent h3{
+    font-size: 4.7vh;
+    position: absolute;
+    font-weight: 100;
+    font-family: 'Roboto-Bolder' ;
+    top: 97vw;
+    margin: 7vh;
+    width: 60vh;
+}
+.popularContent p{
+    font-size: 2.3vh;
+    position: absolute;
+    top: 105vw;
+    margin: 7vh;
+    width: 60vh;
+}
+.display{
+    display: flex;
+}
+@media screen and (max-width: 768px){
+    .popularContent{
+        margin: 5vh 1vh 0vh 1vh;
+        color: white;
+    }
+    .popularContent h2{
+        font-family: 'Roboto-Bolder' ;
+        font-size: 5vh;
+        color: black;
+        margin-left: 1vh;
+        font-weight: 100;
+    }
+    .popularContent img{
+        filter: brightness(55%);
+        width: 84vw;
+        height: 50vh;
+    }
+    .popularContent h4{
+        font-size: 2.4vh;
+        position: absolute;
+        top: 190vh;
+        margin: 7vh;
+    }
+    .popularContent h3{
+        font-size: 4.2vh;
+        position: absolute;
+        font-weight: 100;
+        font-family: 'Roboto-Bolder' ;
+        top: 195vh;
+        margin: 7vh;
+        width: 40vh;
+    }
+    .popularContent p{
+        font-family: 'Roboto' ;
+        font-size: 2.7vh;
+        position: absolute;
+        top: 212vh;
+        font-weight: 100;
+        margin: 7vh;
+        width: 40vh;
+    }
+}

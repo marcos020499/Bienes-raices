@@ -1,0 +1,121 @@
+@font-face {
+    font-family: 'Roboto' ;
+    src: url('../../../fonts/Roboto-Light.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Roboto-Bolder' ;
+    src: url('../../../fonts/Roboto-Bold.ttf') format('truetype');
+}
+h2, h3, h4, button, a, span{
+    font-family: 'Roboto', sans-serif;
+}
+h1, p{
+    font-family: 'Roboto-Bolder';
+}
+.headerInfo{
+    margin: -6vh 1vw 0vh 1vw;
+    background-color: white;
+    position: fixed;
+    z-index: 10;
+    display: inline-flex;
+    justify-content: space-between;
+}
+.logoHeader{
+    width: 12vw;
+}
+.headerInfo h2{
+    font-size: 2.2vw;
+    position: static;
+    padding-left: 2vh;
+}
+.loupeHeader{
+    position: relative;
+    top: 0.8vh;
+    padding-top: 4vh;
+    width: 2.5%;
+}
+.headerInfo nav{
+    text-align: end;
+}
+.headerInfo a{
+    padding: 2vw;
+    font-size: 1.4vw;
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+}
+.headerInfo button{
+    padding: 1.3vw 5vw 1vw 5vw;
+    border-radius: 20vw;
+    font-size: 1.5vw;
+    font-weight: bolder;
+    background-color: white;
+    border: 1px solid black;
+}
+.topicsHeader{
+    margin-top: 5vh;
+    padding: 5vw 14vw 0vw 4vw;
+    display: flex;
+    justify-content: space-between;
+}
+.topicsHeader a{
+    text-decoration: none;
+    font-size: 1.2vw;
+    color: black;
+    font-weight: bolder;
+}
+.categoryHeader{
+    display: none;
+}
+@media screen and (max-width: 768px){
+    .logoHeader{
+        width: 22vw;
+    }
+    .headerInfo h2{
+        position: relative;
+        right: 4.8vh;
+        margin-top: 4vw;
+        font-size: 5vw;
+    }
+    .headerInfo{
+        background: white;
+        position: fixed;
+        width: 100%;
+        z-index: 10;
+    }
+    .loupeHeader{
+        width: 6vw;
+    }
+    .archivesHeader{
+        display: none;
+    }
+    .tagsHeader{
+        display: none;
+    }
+    .suscribeHeader{
+        display: none;
+    }
+    .categoryHeader{
+        display: initial;
+    }
+    .headerInfo a{
+        position: relative;
+        right: 2vh;
+        top: -4vw;
+        font-size: 4vw;
+        text-align: end;
+    }
+    .topicsHeader{
+        padding: 0%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .topicsHeader a{
+        font-size: 3.6vw;
+        margin-bottom: 2vw;
+    }
+
+}
+
+
