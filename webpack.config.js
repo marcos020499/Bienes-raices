@@ -7,8 +7,12 @@ module.exports = {
   // the app entry point is /src/index.js
   entry: path.resolve(__dirname, 'src', 'index.js'),
   output: {
-    path: path.join(__dirname, "examples/dist"),
-    filename: "bundle.js"
+    path: path.resolve(__dirname, 'build'), // change this
+    publicPath: '/',
+    filename: 'bundle.js'
+  },
+  devServer: {
+    contentBase: "./build",
   },
   module: {
     rules: [
