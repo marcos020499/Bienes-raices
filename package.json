@@ -7,7 +7,7 @@
   "scripts": {
     "build": "webpack",
     "deploy": "gh-pages -d examples/dist",
-    "publish-demo": "npm run build && gh-pages -d examples",
+    "publish-demo": "npm run build && npm run deploy",
     "start": "webpack serve --open"
   },
   "keywords": [],
