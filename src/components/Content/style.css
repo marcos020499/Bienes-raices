@@ -52,6 +52,8 @@
 @media screen and (max-width: 768px){
     .textImg{
         width: 70vw;
+        position: absolute;
+        top: 85vw;
     }
     .textImg h4{
         font-size: 3.2vw;
@@ -178,7 +180,7 @@
 }
 @media screen and (max-width: 768px){
     .popularContent{
-        margin: 5vh 1vh 0vh 1vh;
+        margin: 5vw 1vh 0vh 1vh;
         color: white;
     }
     .popularContent h2{
@@ -191,31 +193,31 @@
     .popularContent img{
         filter: brightness(55%);
         width: 84vw;
-        height: 50vh;
+        height: 80vw;
     }
     .popularContent h4{
         font-size: 3.4vw;
         position: absolute;
-        top: 330vw;
-        margin: 7vh;
+        top: 335vw;
+        margin: 10vw;
     }
     .popularContent h3{
         font-size: 6.3vw;
         position: absolute;
         font-weight: 100;
         font-family: 'Roboto-Bolder' ;
-        top: 340vw;
-        margin: 7vh;
-        width: 40vh;
+        top: 345vw;
+        margin: 10vw;
+        width: 70vw;
     }
     .popularContent p{
         font-family: 'Roboto' ;
         font-size: 3.7vw;
         position: absolute;
-        top: 358vw;
+        top: 364vw;
         font-weight: 100;
-        margin: 7vh;
-        width: 40vh;
+        margin: 10vw;
+        width: 70vw;
     }
 
 }
