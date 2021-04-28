@@ -56,18 +56,6 @@ class Content extends Component {
                      <h3>Mobile UI Design: 15 Basic Types of Screens</h3>
                      <p>Mobile applications evolve with user's needs offering new functionality still, there are screens common for many apps and they are the focus of this article.</p>
                   </div>
-                  <div className='displayContent2'>
-                     <img src={theoryColor} alt=""/>
-                     <h4>PROCESS AND TOOLS</h4>
-                     <h3>Mobile UI Design: 15 Basic Types of Screens</h3>
-                     <p>Mobile applications evolve with user's needs offering new functionality still, there are screens common for many apps and they are the focus of this article.</p>
-                  </div>
-                  <div className='displayContent3'>
-                     <img src={interfaceUser} alt=""/>
-                     <h4>PROCESS AND TOOLS</h4>
-                     <h3>Mobile UI Design: 15 Basic Types of Screens</h3>
-                     <p>Mobile applications evolve with user's needs offering new functionality still, there are screens common for many apps and they are the focus of this article.</p>
-                  </div>
                </div>
             </div>
          </>
