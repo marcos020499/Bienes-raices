@@ -9,7 +9,6 @@ class Header extends Component {
          <div className=''>
              <div className='headerInfo'>
                 <img src={logo} alt="" className='logoHeader'/>
-                <h2>blog</h2>
                 <nav>
                     <a href=""><img src={lopue} alt="" className='loupeHeader'/></a>
                     <a href="" className='tagsHeader'>Tags</a>

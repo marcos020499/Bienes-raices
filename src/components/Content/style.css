@@ -24,7 +24,7 @@
     .tubikBlog img{
         filter: brightness(60%);
         width: 100%;
-        height: 90vw;
+        height: 50%;
         border-radius: 10px;
     }
 }
@@ -51,19 +51,19 @@
 }
 @media screen and (max-width: 768px){
     .textImg{
-        width: 40vh;
+        width: 70vw;
     }
     .textImg h4{
-        font-size: 2.2vh;
+        font-size: 3.2vw;
         font-weight: bolder;
     }
     .textImg p{
-        font-size: 2.5vh;
+        font-size: 3.5vw;
         font-weight: bolder;
     }
     .textImg h2{
         font-family: 'Roboto-Bolder' ;
-        font-size: 4vh;
+        font-size: 7vw;
     }
 }
 .viewLatest{
@@ -183,7 +183,7 @@
     }
     .popularContent h2{
         font-family: 'Roboto-Bolder' ;
-        font-size: 5vh;
+        font-size: 7vw;
         color: black;
         margin-left: 1vh;
         font-weight: 100;
@@ -194,25 +194,25 @@
         height: 50vh;
     }
     .popularContent h4{
-        font-size: 2.4vh;
+        font-size: 3.4vw;
         position: absolute;
-        top: 190vh;
+        top: 330vw;
         margin: 7vh;
     }
     .popularContent h3{
-        font-size: 4.2vh;
+        font-size: 6.3vw;
         position: absolute;
         font-weight: 100;
         font-family: 'Roboto-Bolder' ;
-        top: 195vh;
+        top: 340vw;
         margin: 7vh;
         width: 40vh;
     }
     .popularContent p{
         font-family: 'Roboto' ;
-        font-size: 2.7vh;
+        font-size: 3.7vw;
         position: absolute;
-        top: 212vh;
+        top: 358vw;
         font-weight: 100;
         margin: 7vh;
         width: 40vh;
