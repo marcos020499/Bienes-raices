@@ -7,12 +7,8 @@ module.exports = {
   // the app entry point is /src/index.js
   entry: path.resolve(__dirname, 'src', 'index.js'),
   output: {
-    path: path.resolve(__dirname, 'build'), // change this
-    publicPath: '/',
-    filename: 'bundle.js'
-  },
-  devServer: {
-    contentBase: "./build",
+    path: path.join(__dirname, "examples/dist"),
+    filename: "bundle.js"
   },
   module: {
     rules: [
@@ -27,6 +23,20 @@ module.exports = {
           // attach the presets to the loader (most projects use .babelrc file instead)
           presets: ["@babel/preset-env", "@babel/preset-react"]
         }
+      },
+      {
+        test: /\.css$/,
+        use: [
+          'style-loader',
+          {
+            loader: 'css-loader',
+            options: {
+              importLoaders: 1,
+              modules: true
+            }
+          }
+        ],
+        include: /\.module\.css$/
       },
       {
         test: /\.css$/,
