@@ -7,6 +7,12 @@ class Header extends Component {
          <div className=''>
              <div className='headerInfo'>
                 <img src='./img/logo.svg' alt="" className='logoHeader'/>
+                <img src='../img/logo.svg' alt="" className='logoHeader'/>
+                <img src='./../../../img/logo.svg' alt="" className='logoHeader'/>
+                <img src='./../../img/logo.svg' alt="" className='logoHeader'/>
+                <img src='../../img/logo.svg' alt="" className='logoHeader'/>
+                <img src='./../../../img/logo.svg' alt="" className='logoHeader'/>
+                <img src='/img/logo.svg' alt="" className='logoHeader'/>
                 <h2>blog</h2>
                 <nav>
                     <a href=""><img src='./img/loupe.svg' alt="" className='loupeHeader'/></a>
