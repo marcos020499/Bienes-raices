@@ -72,10 +72,10 @@ h1, p{
         width: 22vw;
     }
     .headerInfo h2{
-        position: relative;
-        right: 4.8vh;
-        margin-top: 4vw;
-        font-size: 5vw;
+        position: absolute;
+        right: 36vh;
+        top: 2px;
+        font-size: 2.5vh;
     }
     .headerInfo{
         background: white;
@@ -84,7 +84,7 @@ h1, p{
         z-index: 10;
     }
     .loupeHeader{
-        width: 6vw;
+        width: 5vw;
     }
     .archivesHeader{
         display: none;
@@ -100,9 +100,9 @@ h1, p{
     }
     .headerInfo a{
         position: relative;
-        right: 2vh;
+        right: 5vw;
         top: -4vw;
-        font-size: 4vw;
+        font-size: 3.5vw;
         text-align: end;
     }
     .topicsHeader{
@@ -110,6 +110,8 @@ h1, p{
         display: flex;
         flex-direction: column;
         text-align: center;
+        position: relative;
+        top: 5vh;
     }
     .topicsHeader a{
         font-size: 3.6vw;

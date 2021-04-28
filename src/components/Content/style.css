@@ -16,14 +16,14 @@
 @media screen and (max-width: 768px){
     .content{
         display: inline-block;
-        padding: 0 1vh 0 1vh;
+        padding: 3vh 1vh 0 1vh;
     }
     .tubikBlog h1{
         font-size: 7vw;
     }
     .tubikBlog img{
         filter: brightness(60%);
-        width: 92vw;
+        width: 100%;
         height: 90vw;
         border-radius: 10px;
     }
@@ -106,7 +106,7 @@
 @media screen and (max-width: 768px){
     .viewLatest{
         right: 4vh;
-        top: 37vh;
+        top: 70vw;
         font-size: 3vh;
     }
     .views img{
@@ -121,7 +121,7 @@
     }
     .views p{
         font-size: 2.2vh;
-        width: 43vw;
+        width: 42vw;
         margin-bottom: 30px;
     }
     .view{
@@ -129,7 +129,7 @@
         margin: 0 1vh 0vh 0vh;
     }
     .viewContent{
-        width: 34vw;
+        width: 32vw;
         margin: 0 5vh 5vh 1vh;
     }
 }
