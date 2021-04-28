@@ -67,7 +67,7 @@ h1, p{
 .categoryHeader{
     display: none;
 }
-@media (max-width: 768px){
+@media screen and (max-width: 768px){
     .logoHeader{
         width: 22vw;
     }
