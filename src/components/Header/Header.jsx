@@ -1,15 +1,17 @@
 import React, {Component} from 'react';
 import './style.css'
+import logo from '../../../img/logo.svg'
+import lopue from '../../../img/loupe.svg'
 
 class Header extends Component {
    render() {
       return (
          <div className=''>
              <div className='headerInfo'>
-                <img src='../img/logo.svg' alt="" className='logoHeader'/>
+                <img src={logo} alt="" className='logoHeader'/>
                 <h2>blog</h2>
                 <nav>
-                    <a href=""><img src='../img/loupe.svg' alt="" className='loupeHeader'/></a>
+                    <a href=""><img src={lopue} alt="" className='loupeHeader'/></a>
                     <a href="" className='tagsHeader'>Tags</a>
                     <a href="" className='archivesHeader'>Archives</a>
                     <a href="">Books</a>
