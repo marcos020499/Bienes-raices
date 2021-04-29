@@ -192,13 +192,13 @@
     }
     .popularContent img{
         filter: brightness(55%);
-        width: 84vw;
-        height: 80vw;
+        width: 80vw;
+        height: 75vw;
     }
     .popularContent h4{
         font-size: 3.4vw;
         position: absolute;
-        top: 335vw;
+        top: 326vw;
         margin: 10vw;
     }
     .popularContent h3{
@@ -206,7 +206,7 @@
         position: absolute;
         font-weight: 100;
         font-family: 'Roboto-Bolder' ;
-        top: 345vw;
+        top: 334vw;
         margin: 10vw;
         width: 70vw;
     }
@@ -214,10 +214,15 @@
         font-family: 'Roboto' ;
         font-size: 3.7vw;
         position: absolute;
-        top: 364vw;
+        top: 354vw;
         font-weight: 100;
         margin: 10vw;
         width: 70vw;
     }
-
+}
+img{
+    transition: width 1s, height 1s, transform 1s;
+}
+img:hover{
+    transform : scale(1.05);
 }

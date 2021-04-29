@@ -8,9 +8,17 @@ import uiDesing from '../../../img/photos-in-ui-design-tubik-blog-article-768x57
 import cinema from '../../../img/cinema-app-ui-design-tubik.jpg'
 import theoryColor from '../../../img/color-theory-design-tubik.jpg'
 import interfaceUser from '../../../img/images-in-user-interfaces-tubik-blog-article.png'
+import Slider from "react-slick";
 
 class Content extends Component {
    render() {
+      const settings = {
+         dots: true,
+         infinite: true,
+         speed: 5,
+         slidesToShow: 1,
+         slidesToScroll: 1,
+       };
       return (
          <>
             <div className='content'>
@@ -47,17 +55,7 @@ class Content extends Component {
                   </div>
                </div>
             </div>
-            <div className='popularContent'>
-               <h2>Popular</h2>
-               <div className='display'>
-                  <div className='displayContent'>
-                     <img src={cinema} alt=""/>
-                     <h4>PROCESS AND TOOLS</h4>
-                     <h3>Mobile UI Design: 15 Basic Types of Screens</h3>
-                     <p>Mobile applications evolve with user's needs offering new functionality still, there are screens common for many apps and they are the focus of this article.</p>
-                  </div>
-               </div>
-            </div>
+            
          </>
       )
    }
