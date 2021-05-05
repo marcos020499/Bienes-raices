@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "c7c43448b9e24b470e80",
-    "url": "/Bienes-raices/static/css/main.c69e6a08.chunk.css"
+    "revision": "19d12a1015dc47829096",
+    "url": "/Bienes-raices/static/css/main.ec22de75.chunk.css"
   },
   {
-    "revision": "c7c43448b9e24b470e80",
-    "url": "/Bienes-raices/static/js/main.c4e1500c.chunk.js"
+    "revision": "19d12a1015dc47829096",
+    "url": "/Bienes-raices/static/js/main.d6c6afd6.chunk.js"
   },
   {
     "revision": "9c0173946fde55384fa7",
@@ -64,7 +64,7 @@ self.__precacheManifest = [
     "url": "/Bienes-raices/static/media/Roboto-Bold.9ece5b48.ttf"
   },
   {
-    "revision": "90ee8862950150162af077aff933301a",
+    "revision": "c8f24909c7ede08df07370782572bf4b",
     "url": "/Bienes-raices/index.html"
   }
 ];
