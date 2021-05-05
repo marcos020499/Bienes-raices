@@ -71,9 +71,9 @@
 .viewLatest{
     font-family: 'Roboto-Bolder' ;
     position: absolute;
-    right: 9vh;
-    top: 20vw;
-    font-size: 3vh;
+    right: 9vw;
+    top: 12vw;
+    font-size: 3vw;
     padding-bottom: 30vw;
 }
 .views img{
@@ -220,9 +220,9 @@
         width: 70vw;
     }
 }
-img{
+.content img{
     transition: width 1s, height 1s, transform 1s;
 }
-img:hover{
+.content img:hover{
     transform : scale(1.05);
 }

@@ -1,24 +1,13 @@
 import React, {Component} from 'react';
 import './style.css'
-import ecommerceProduct from '../../../img/ecommerce-product-page-design-tubik-blog.jpg'
-import easterBunny from '../../../img/easter-bunny-adventures-bear-illustration-tubikarts-768x576.jpg'
-import breadCrumbs from '../../../img/breadcrumbs-design-tips-tubik-blog-768x576.jpg'
-import creative from '../../../img/creative-workspaces-illustrations-tubikarts-3-768x576.jpg'
-import uiDesing from '../../../img/photos-in-ui-design-tubik-blog-article-768x576.jpg'
-import cinema from '../../../img/cinema-app-ui-design-tubik.jpg'
-import theoryColor from '../../../img/color-theory-design-tubik.jpg'
-import interfaceUser from '../../../img/images-in-user-interfaces-tubik-blog-article.png'
-import Slider from "react-slick";
+import ecommerceProduct from '../../img/ecommerce-product-page-design-tubik-blog.jpg'
+import easterBunny from '../../img/easter-bunny-adventures-bear-illustration-tubikarts-768x576.jpg'
+import breadCrumbs from '../../img/breadcrumbs-design-tips-tubik-blog-768x576.jpg'
+import creative from '../../img/creative-workspaces-illustrations-tubikarts-3-768x576.jpg'
+import uiDesing from '../../img/photos-in-ui-design-tubik-blog-article-768x576.jpg'
 
 class Content extends Component {
    render() {
-      const settings = {
-         dots: true,
-         infinite: true,
-         speed: 5,
-         slidesToShow: 1,
-         slidesToScroll: 1,
-       };
       return (
          <>
             <div className='content'>

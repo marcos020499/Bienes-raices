@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import './style.css'
-import logo from '../../../img/logo.svg'
-import lopue from '../../../img/loupe.svg'
+import logo from '../../img/logo.svg'
+import lopue from '../../img/loupe.svg'
 
 class Header extends Component {
    render() {
