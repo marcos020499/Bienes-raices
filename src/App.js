@@ -1,4 +1,4 @@
-import React, { Component, Fragment } from 'react';
+import React, { Component } from 'react';
 
 import Header from './components/Header/Header.jsx'
 import Content from './components/Content/Content.jsx'

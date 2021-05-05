@@ -23,22 +23,22 @@ export default class MultipleItems extends Component {
         <div className='display'>
         <Slider {...settings}>
                   <div className='displayContent'>
+                    <h4 style={{fontSize: '10vw', color: 'blue', zIndex: '3'}}>PROCESS AND TOOLS</h4>
+                     <h3>Mobile UI Design: 15 Basic Types of Screens</h3>
+                     <p>Mobile applications evolve with user's needs offering new functionality still, there are screens common for many apps and they are the focus of this article.</p>
                      <img src={image1} alt=""/>
-                     <h4>PROCESS AND TOOLS</h4>
-                     <h3>Mobile UI Design: 15 Basic Types of Screens</h3>
-                     <p>Mobile applications evolve with user's needs offering new functionality still, there are screens common for many apps and they are the focus of this article.</p>
                   </div>
                   <div className='displayContent'>
+                    <h4>PROCESS AND TOOLS</h4>
+                     <h3>Mobile UI Design: 15 Basic Types of Screens</h3>
+                     <p>Mobile applications evolve with user's needs offering new functionality still, there are screens common for many apps and they are the focus of this article.</p>
                      <img src={image2} alt=""/>
-                     <h4>PROCESS AND TOOLS</h4>
-                     <h3>Mobile UI Design: 15 Basic Types of Screens</h3>
-                     <p>Mobile applications evolve with user's needs offering new functionality still, there are screens common for many apps and they are the focus of this article.</p>
                   </div>
                   <div className='displayContent'>
-                     <img src={image3} alt=""/>
-                     <h4>PROCESS AND TOOLS</h4>
+                    <h4>PROCESS AND TOOLS</h4>
                      <h3>Mobile UI Design: 15 Basic Types of Screens</h3>
                      <p>Mobile applications evolve with user's needs offering new functionality still, there are screens common for many apps and they are the focus of this article.</p>
+                     <img src={image3} alt=""/>
                   </div>
         </Slider>
         </div>
