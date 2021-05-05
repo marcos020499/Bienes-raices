@@ -49,7 +49,7 @@
 @media screen and (max-width: 768px){
     .popularContent{
         margin: 5vh 1vh 0vh 1vh;
-        color: white;
+        color: black;
     }
     .popularContent h2{
         font-family: 'Roboto-Bolder' ;
@@ -60,17 +60,18 @@
     }
     .popularContent img{
         filter: brightness(55%);
-        width: 84vw;
+        width: 80vw;
         height: 50vh;
     }
     .popularContent h4{
         font-size: 2.4vh;
+        color: black;
         position: absolute;
         top: 190vh;
         margin: 7vh;
     }
     .popularContent h3{
-        font-size: 4.2vh;
+        font-size: 42vh;
         position: absolute;
         font-weight: 100;
         font-family: 'Roboto-Bolder' ;
